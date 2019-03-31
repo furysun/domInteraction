@@ -1,3 +1,4 @@
 .DS_Store
 .idea/
 domInteraction.iml
+node_modules
