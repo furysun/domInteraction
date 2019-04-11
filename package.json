@@ -2,9 +2,9 @@
   "name": "dominteraction",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/script1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "url": "https://github.com/furysun/domInteraction/issues"
   },
   "homepage": "https://github.com/furysun/domInteraction#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
 }
