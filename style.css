@@ -1,5 +1,13 @@
 .task{
-    height: 100px;
+    /*height: 100px;*/
     background-color: pink;
     margin-bottom: 10px;
+}
+
+.task2-red{
+    background-color: red;
+}
+
+.task2-pink{
+    background-color: pink;
 }
