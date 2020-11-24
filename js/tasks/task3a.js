@@ -1,5 +1,6 @@
 export function task3() {
   let rootDiv = document.getElementById('task3_div');
+  console.log(rootDiv);
 
   let h = createH();
   rootDiv.appendChild(h);
@@ -14,6 +15,7 @@ export function task3() {
   ];
 
   let table = createTable(cats);
+  console.log(table);
   rootDiv.appendChild(table);
 }
 
@@ -37,16 +39,13 @@ function createTableHead() {
   let tr = document.createElement('tr');
   thead.appendChild(tr);
 
-  let thName = document.createElement('th');
-  thName.innerText = 'name';
+  const thName = createElement('th', 'name');
   tr.appendChild(thName);
 
-  let thColor = document.createElement('th');
-  thColor.innerText = 'color';
+  const thColor = createElement('th', 'color');
   tr.appendChild(thColor);
 
-  let thSize = document.createElement('th');
-  thSize.innerText = 'size';
+  const thSize = createElement('th', 'size');
   tr.appendChild(thSize);
 
   return thead;
@@ -64,9 +63,14 @@ function createTbody(cats) {
 }
 
 function createTd(value) {
-  const td = document.createElement('td');
-  td.innerText = value;
-  return td;
+  return createElement('td', value);
+}
+
+function createElement(tagName, value) {
+  const element = document.createElement(tagName);
+  element.innerText = value;
+
+  return element;
 }
 
 function createTr(name, color, size) {
