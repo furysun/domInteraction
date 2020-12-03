@@ -1,4 +1,25 @@
 export function task2() {
+  const root = document.getElementById('root');
+
+  root.innerHTML = `
+    <div id="task2_div_with_span">
+      <span>cat+dog2</span>
+    </div>
+
+    <div id="task2_div_with_text">
+      i<3u
+    </div>
+
+    <div class="task2-red">
+      mif
+    </div>
+    <input id="task2_input" value="noooo"/>
+
+    <div id="task2_div_style" style="background-color: antiquewhite">
+      meow
+    </div>
+  `;
+
   let div = document.getElementById('task2_div_with_span');
   div.innerHTML = '<p><3</p>';
 

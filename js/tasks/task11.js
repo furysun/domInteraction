@@ -1,5 +1,5 @@
 export function task11() {
-  const root = document.getElementById('task11');
+  const root = document.getElementById('root');
 
   const input = document.createElement('input');
   // input.onchange = sayMif;

@@ -1,4 +1,13 @@
 export function task3() {
+  const root = document.getElementById('root');
+  root.innerHTML = `
+    <div id="task3_div">
+    </div>
+  
+    <div id="task4">
+    </div>
+   `;
+
   let rootDiv = document.getElementById('task3_div');
   console.log(rootDiv);
 

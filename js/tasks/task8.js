@@ -1,5 +1,6 @@
 export function task8() {
-  const root = document.getElementById('task8');
+
+  const root = document.getElementById('root');
 
   const divGreen = createDiv('parent', '200px', '200px', 'green');
   divGreen.onclick = () => changeColor(divGreen, 'red', 'green');

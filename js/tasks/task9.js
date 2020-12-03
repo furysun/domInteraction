@@ -1,5 +1,5 @@
 export function task9() {
-  const root = document.getElementById('task9');
+  const root = document.getElementById('root');
 
   const div = document.createElement('div');
   div.innerText = 'say';

@@ -1,7 +1,7 @@
 export function task10() {
   //кодом  3 елемента - див под пим инпут под ним p
 
-  const root = document.getElementById('task10');
+  const root = document.getElementById('root');
 
   const div = document.createElement('div');
   div.style.height = '50px';
