@@ -13,6 +13,7 @@ import {task12} from "./tasks/task12";
 import {task11} from "./tasks/task11";
 import {task13} from "./tasks/task13";
 import {task14} from "./tasks/task14";
+import {task15} from "./tasks/task15";
 
 // task1();
 // task2();
@@ -27,4 +28,5 @@ import {task14} from "./tasks/task14";
 // task11();
 // task12();
 // task13();
-task14();
+// task14();
+task15();
