@@ -14,7 +14,8 @@ import {task11} from "./tasks/task11";
 import {task13} from "./tasks/task13";
 import {task14} from "./tasks/task14";
 import {task15} from "./tasks/task15";
-import {task16} from "./tasks/task16";
+import {xmlHttpRequestDemo} from "./ajax/xml-http-request-demo";
+// import {task16} from "./tasks/task16";
 
 // task1();
 // task2();
@@ -31,4 +32,6 @@ import {task16} from "./tasks/task16";
 // task13();
 // task14();
 // task15();
-task16();
+// task16();
+
+xmlHttpRequestDemo();
