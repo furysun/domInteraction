@@ -14,7 +14,9 @@ import {task11} from "./tasks/task11";
 import {task13} from "./tasks/task13";
 import {task14} from "./tasks/task14";
 import {task15} from "./tasks/task15";
-import {xmlHttpRequestDemo} from "./ajax/xml-http-request-demo";
+import {callbackHell} from "./ajax/callback-hell";
+// import {timeoutDemo} from "./ajax/timeout-demo";
+// import {xmlHttpRequestDemo} from "./ajax/xml-http-request-demo";
 // import {task16} from "./tasks/task16";
 
 // task1();
@@ -33,5 +35,6 @@ import {xmlHttpRequestDemo} from "./ajax/xml-http-request-demo";
 // task14();
 // task15();
 // task16();
-
-xmlHttpRequestDemo();
+// xmlHttpRequestDemo();
+// timeoutDemo();
+callbackHell();
